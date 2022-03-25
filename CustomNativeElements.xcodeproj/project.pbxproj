@@ -10,15 +10,15 @@
 		3BB56AAC27EDFF2F00ED09D4 /* CustomNativeElementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB56AAB27EDFF2F00ED09D4 /* CustomNativeElementApp.swift */; };
 		3BB56AAE27EDFF2F00ED09D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB56AAD27EDFF2F00ED09D4 /* ContentView.swift */; };
 		3BB56AB027EDFF3100ED09D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB56AAF27EDFF3100ED09D4 /* Assets.xcassets */; };
-		3BB56AB327EDFF3100ED09D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB56AB227EDFF3100ED09D4 /* Preview Assets.xcassets */; };
+		3BB56ABA27EDFF9200ED09D4 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB56AB927EDFF9200ED09D4 /* CustomSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3BB56AA827EDFF2F00ED09D4 /* CustomNativeElement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNativeElement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB56AA827EDFF2F00ED09D4 /* CustomNativeElementss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNativeElementss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB56AAB27EDFF2F00ED09D4 /* CustomNativeElementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNativeElementApp.swift; sourceTree = "<group>"; };
 		3BB56AAD27EDFF2F00ED09D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BB56AAF27EDFF3100ED09D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3BB56AB227EDFF3100ED09D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BB56AB927EDFF9200ED09D4 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,9 @@
 		3BB56A9F27EDFF2F00ED09D4 = {
 			isa = PBXGroup;
 			children = (
-				3BB56AAA27EDFF2F00ED09D4 /* CustomNativeElement */,
+				3BB56AAA27EDFF2F00ED09D4 /* Example */,
+				3BB56AB927EDFF9200ED09D4 /* CustomSegmentedControl.swift */,
+				3BB56AAF27EDFF3100ED09D4 /* Assets.xcassets */,
 				3BB56AA927EDFF2F00ED09D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,36 +45,26 @@
 		3BB56AA927EDFF2F00ED09D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BB56AA827EDFF2F00ED09D4 /* CustomNativeElement.app */,
+				3BB56AA827EDFF2F00ED09D4 /* CustomNativeElementss.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3BB56AAA27EDFF2F00ED09D4 /* CustomNativeElement */ = {
+		3BB56AAA27EDFF2F00ED09D4 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				3BB56AAB27EDFF2F00ED09D4 /* CustomNativeElementApp.swift */,
 				3BB56AAD27EDFF2F00ED09D4 /* ContentView.swift */,
-				3BB56AAF27EDFF3100ED09D4 /* Assets.xcassets */,
-				3BB56AB127EDFF3100ED09D4 /* Preview Content */,
 			);
-			path = CustomNativeElement;
-			sourceTree = "<group>";
-		};
-		3BB56AB127EDFF3100ED09D4 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				3BB56AB227EDFF3100ED09D4 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BB56AA727EDFF2F00ED09D4 /* CustomNativeElement */ = {
+		3BB56AA727EDFF2F00ED09D4 /* CustomNativeElements */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BB56AB627EDFF3100ED09D4 /* Build configuration list for PBXNativeTarget "CustomNativeElement" */;
+			buildConfigurationList = 3BB56AB627EDFF3100ED09D4 /* Build configuration list for PBXNativeTarget "CustomNativeElements" */;
 			buildPhases = (
 				3BB56AA427EDFF2F00ED09D4 /* Sources */,
 				3BB56AA527EDFF2F00ED09D4 /* Frameworks */,
@@ -82,9 +74,9 @@
 			);
 			dependencies = (
 			);
-			name = CustomNativeElement;
+			name = CustomNativeElements;
 			productName = CustomNativeElement;
-			productReference = 3BB56AA827EDFF2F00ED09D4 /* CustomNativeElement.app */;
+			productReference = 3BB56AA827EDFF2F00ED09D4 /* CustomNativeElementss.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +94,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3BB56AA327EDFF2F00ED09D4 /* Build configuration list for PBXProject "CustomNativeElement" */;
+			buildConfigurationList = 3BB56AA327EDFF2F00ED09D4 /* Build configuration list for PBXProject "CustomNativeElements" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +107,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BB56AA727EDFF2F00ED09D4 /* CustomNativeElement */,
+				3BB56AA727EDFF2F00ED09D4 /* CustomNativeElements */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +117,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BB56AB327EDFF3100ED09D4 /* Preview Assets.xcassets in Resources */,
 				3BB56AB027EDFF3100ED09D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +130,7 @@
 			files = (
 				3BB56AAE27EDFF2F00ED09D4 /* ContentView.swift in Sources */,
 				3BB56AAC27EDFF2F00ED09D4 /* CustomNativeElementApp.swift in Sources */,
+				3BB56ABA27EDFF9200ED09D4 /* CustomSegmentedControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +260,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CustomNativeElement/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 4ZJ932X33L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -277,13 +269,14 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alb.CustomNativeElement;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = alb.CustomNativeElements;
+				PRODUCT_NAME = CustomNativeElementss;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,7 +290,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CustomNativeElement/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 4ZJ932X33L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -306,13 +299,14 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alb.CustomNativeElement;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = alb.CustomNativeElements;
+				PRODUCT_NAME = CustomNativeElementss;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +316,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BB56AA327EDFF2F00ED09D4 /* Build configuration list for PBXProject "CustomNativeElement" */ = {
+		3BB56AA327EDFF2F00ED09D4 /* Build configuration list for PBXProject "CustomNativeElements" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BB56AB427EDFF3100ED09D4 /* Debug */,
@@ -331,7 +325,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BB56AB627EDFF3100ED09D4 /* Build configuration list for PBXNativeTarget "CustomNativeElement" */ = {
+		3BB56AB627EDFF3100ED09D4 /* Build configuration list for PBXNativeTarget "CustomNativeElements" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BB56AB727EDFF3100ED09D4 /* Debug */,
