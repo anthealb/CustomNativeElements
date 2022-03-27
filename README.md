@@ -18,11 +18,55 @@ These components have been studied to be used as similarly as possible as you wo
 
 **Note:** When changing the global background, the Segmented Control currently loses its default animation. There will be an attempt to solve this issue in the next update. Also *coming soon*, a way to change the font in the example program.
 
+```swift
+struct SwiftUIView: View {
+    let pages = ["One", "Two", "Three"]
+    @State var selected = 0
+    
+    var body: some View {
+        NavigationView {
+            VStack{
+                CustomSegmentedControl(myItems: pages,
+                                       selectedSegmentColor: UIColor.systemMint.cgColor,
+                                       selectedSegmentTextColor: UIColor.white.cgColor,
+                                       myFont: UIFont.boldSystemFont(ofSize: 15),
+                                       selected: $selected)
+                    .padding()
+                switch selected {
+                    case 0:
+                        ViewZero()
+                    case 1:
+                        ViewOne()
+                    case 2:
+                        ViewTwo()
+                    default:
+                        Spacer()
+                }
+                Spacer()
+            }
+        }
+        
+    }
+}    
+```
+
 **Required Parameters**
+`myItems` - string array of the segment titles
+`selected` - binding to determine which segment is selected
+
 **Available customizations - optional parameters**
+`backgroundColor` - CGColor for the Segmented Control's background
+`textColor` - CGColor for the Segmented Control's text
+`selectedSegmentColor` - CGColor for the selected segment background
+`selectedSegmentTextColor` - CGColor for the selected segment text
+`myFont` - UIFont paramenter to change font family, size and weight 
 
-##Example
+## Example
+To try out color commbinations with a visual interface, clone the repo `https://github.com/anthealb/CustomNativeElements.git` in your XCode and run it.
 
-##Installation
+## Installation
+To install `CustomNativeElements` manually, drop `CustomSegmentedControl.swift` in your project.
 
-##Requirements
+## Requirements
+* iOS 13+
+* Xcode 11+
