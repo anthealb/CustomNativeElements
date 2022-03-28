@@ -12,9 +12,12 @@ For now includes:
 ## Usage
 These components have been studied to be used as similarly as possible as you would use the native SwiftUI ones. More detailed explanations follow.
 ### Segmented Control
+<img align="right" src="Assets.xcassets/CustomSegmentedControl_ex1.imageset/CustomSegmentedControl_ex1.png">
+<img align="right" src="Assets.xcassets/CustomSegmentedControl_ex2.imageset/CustomSegmentedControl_ex2.png">
+<img align="right" src="Assets.xcassets/CustomSegmentedControl_ex3.imageset/CustomSegmentedControl_ex3.png">
 1. Create an array of `String` representing the titles of your segments
 2. Create a state variable to store the `selected` index.
-3. The customizable options are: font (type and size) and colors (global background and text, selected segment background and text)
+3. The customizable options are: font (type and size) and colors (global background and text, selected segment background and text) 
 
 **Note:** When changing the global background, the Segmented Control currently loses its default animation. There will be an attempt to solve this issue in the next update. Also *coming soon*, a way to change the font in the example program.
 
