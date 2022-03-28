@@ -1,5 +1,5 @@
 # CustomNativeElements
-Customizable native iOS components that only requires SwiftUI knowledge to be used.
+Customizable native iOS components that only require SwiftUI knowledge to be used.
 
 ## Description
 🧑‍💻 **Ever wanted to customise your iOS native elements?**
