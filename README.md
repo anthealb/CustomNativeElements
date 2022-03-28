@@ -12,9 +12,8 @@ For now includes:
 ## Usage
 These components have been studied to be used as similarly as possible as you would use the native SwiftUI ones. More detailed explanations follow.
 ### Segmented Control
-<img align="right" src="Assets.xcassets/CustomSegmentedControl_ex1.imageset/CustomSegmentedControl_ex1.png">
-<img align="right" src="Assets.xcassets/CustomSegmentedControl_ex2.imageset/CustomSegmentedControl_ex2.png">
-<img align="right" src="Assets.xcassets/CustomSegmentedControl_ex3.imageset/CustomSegmentedControl_ex3.png">
+<img align="right" src="Assets.xcassets/CustomSegmentedControl_example.png">
+
 1. Create an array of `String` representing the titles of your segments
 2. Create a state variable to store the `selected` index.
 3. The customizable options are: font (type and size) and colors (global background and text, selected segment background and text) 
