@@ -53,14 +53,16 @@ struct SwiftUIView: View {
 ```
 
 **Required Parameters**
-`myItems` - string array of the segment titles
+
+`myItems` - string array of the segment titles<br>
 `selected` - binding to determine which segment is selected
 
 **Available customizations - optional parameters**
-`backgroundColor` - CGColor for the Segmented Control's background
-`textColor` - CGColor for the Segmented Control's text
-`selectedSegmentColor` - CGColor for the selected segment background
-`selectedSegmentTextColor` - CGColor for the selected segment text
+
+`backgroundColor` - CGColor for the Segmented Control's background<br>
+`textColor` - CGColor for the Segmented Control's text<br>
+`selectedSegmentColor` - CGColor for the selected segment background<br>
+`selectedSegmentTextColor` - CGColor for the selected segment text<br>
 `myFont` - UIFont paramenter to change font family, size and weight 
 
 ## Example
